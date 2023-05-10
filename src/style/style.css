@@ -1,0 +1,33 @@
+body{
+    width: 60%;
+    margin: auto !important;
+    border-left: 1px solid rgb(236, 236, 236);
+    padding: 10px;
+    border-right: 1px solid rgb(236, 236, 236);
+}
+
+.arriba .img{
+    margin-left: 30%;
+    font-size: 24pt;
+    font-weight: bolder;
+
+}
+.arriba{
+    margin-top: 50px;
+}
+.buttons_facturar{
+    margin: 100px;
+    justify-content: flex-end;
+}
+.card-agregar-producto{
+    z-index: 10;
+    position: absolute;
+    width: 880px;
+    filter: none;
+}
+
+.btn-cerrar{
+    margin-left: 34px;
+    border-radius: 100%;
+    height: 28px;
+}
