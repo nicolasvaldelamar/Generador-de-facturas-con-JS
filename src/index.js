@@ -155,11 +155,6 @@ const calcularTotal = (costo) => {
     console.log(costo)
 }
 
-const soloLetras = (valor)=>{
-    let patron = /^[a-zA-Z]+$/;
-    return patron.test(valor);
-}
-
 const calcularSubTotalyMas = () => {
     const subtotal = document.querySelector('.subtotal');
     const descuento = document.querySelector('.descuento');
